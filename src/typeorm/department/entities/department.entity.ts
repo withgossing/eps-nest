@@ -24,12 +24,12 @@ export class Department extends CommonEntity {
   @Column({ name: 'dept_level', comment: '부서 레벨' })
   deptLevel: number;
 
-  @ApiProperty({ description: '사용여부' })
-  @Column({ name: 'use_yn', length: 1, comment: '사용여부' })
+  @ApiProperty({ description: '사용 여부' })
+  @Column({ name: 'use_yn', length: 1, comment: '사용 여부' })
   useYn: string;
 
-  @ApiProperty({ description: '정렬순서' })
-  @Column({ name: 'sort_order', comment: '정렬순서' })
+  @ApiProperty({ description: '정렬 순서' })
+  @Column({ name: 'sort_order', comment: '정렬 순서' })
   sortOrder: number;
 
   @ApiProperty({ description: '설명' })

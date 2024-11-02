@@ -17,8 +17,8 @@ export class Member extends CommonEntity {
   @Column({ name: 'password', length: 64, comment: '비밀번호' })
   password: string;
 
-  @ApiProperty({ description: '비밀번호' })
-  @Column({ name: 'email', length: 64, comment: '이메일주소' })
+  @ApiProperty({ description: '이메일' })
+  @Column({ name: 'email', length: 64, comment: '이메일' })
   email: string;
 
   @ApiProperty({ description: '상태' })
